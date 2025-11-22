@@ -8,3 +8,65 @@ Template: ngo
 Version: 1.0
 Text Domain: ngo-sigmarocks
 */
+
+p{
+    font-family: "Jost", Sans-serif;
+}
+.apply-now-btn:last-child{
+    display: none !important;
+}
+.sjb-search-button .btn-search{
+    background-color: #f85a00 !important;
+}
+#jobapp_phone{
+    padding-left: 50px;
+}
+.iti__selected-flag{
+    padding: 12px 6px 0 8px;
+}
+.elementor-nav-menu .sub-arrow{
+    margin-block-end: -15px !important;
+    padding: 4px !important;
+}
+@media only screen and (max-width: 1310px){
+    .elementor-nav-menu--layout-horizontal .elementor-nav-menu > li:not(:last-child) > a{
+        margin-inline-end: 0px !important;
+    }
+    .form_address{
+        flex-direction: column !important;
+    }
+}
+@media only screen and (max-width: 1208px){
+    .elementor-595 .elementor-element.elementor-element-4389df1d .elementor-nav-menu .elementor-item{
+        font-size: 15px !important;
+    }
+    .elementor-nav-menu--layout-horizontal .elementor-nav-menu > li:not(:first-child) > a{
+        margin-inline-start: 8px !important;
+    }
+}
+@media only screen and (max-width: 718px){
+    .sjb-page{
+        padding: 0;
+    }
+    .sjb-company-wrapper-details-list>.row>.col-md-8{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sjb-company-wrapper-details-list .company-logo{
+        margin: 0;
+    }
+    .sjb-company-wrapper-details-list .job-info{
+        margin-left: 0;
+    }
+    .sjb-apply-now-btn{
+        text-align: center;
+    }
+    .sjb-apply-now-btn>p{
+        float: none !important;
+    }
+    .list-data header>.row>.col-md-12{
+        width: 100%;
+    }
+}
